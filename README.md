@@ -45,8 +45,8 @@ the data would be represented in json format, i.e., [{'image_id':xxx}, {'image_i
 * tbc
 
 ## How to define the date_generator
- re-define the __getitem__  and __len__function
- refer to <https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly>
+ * re-define the __getitem__  and __len__function
+ * refer to <https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly>
 
 ## How use docker
 
