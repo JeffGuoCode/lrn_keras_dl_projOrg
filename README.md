@@ -4,6 +4,7 @@ This repo records my personal thoughts and reflections about how to organize a d
 * The project file structure
 * Important functions
 
+The idea of doing this post originates from Google's AI project, image quality assessment, refer to <https://github.com/idealo/image-quality-assessment#datasets>. 
 
 ## Project structure
 
