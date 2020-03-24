@@ -22,8 +22,10 @@ The idea of doing this post originates from Google's AI project, image quality a
   * utils
   * requirements.txt
   
-## Important functions/class
-* prepare data. prepare test if only got prediction task. prepare train and test if got training task as well by using train_test_split function.
+## Important functions/class for prediction task
+* prepare test data.
+the data would be represented in json format, i.e., [{'image_id':xxx}, {'image_id':yyy}, ...]
+ ```samples = image_dir_to_json(image_dir, img_type='jpg')```
 * model build
 * train_data_generator and test_data_generator
 * train and predict
