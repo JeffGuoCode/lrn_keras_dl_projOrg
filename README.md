@@ -45,6 +45,7 @@ the data would be represented in json format, i.e., [{'image_id':xxx}, {'image_i
 * tbc
 
 ## How to define the date_generator
+re-define the __getitem_ function
 
 ## How use docker
 
