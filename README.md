@@ -31,8 +31,18 @@ the data would be represented in json format, i.e., [{'image_id':xxx}, {'image_i
     nima_tech.build()
     nima_tech.nima_model.load_weights(weights_file_tech)
 ```
-* train_data_generator and test_data_generator
-* train and predict
+* test_data_generator
+```data_generator_tech = TestDataGenerator(samples, image_dir, 64, 10, nima_tech.preprocessing_function(),      img_format=img_format) ```
+* predict
+```predictions_tech = predict(nima_tech.nima_model, data_generator_tech)```
+* save results
+```
+    if predictions_file is not None:
+        save_json(samples, predictions_file)
+```
+
+## Important functions/class for training task
+* tbc
 
 
-    
+  
