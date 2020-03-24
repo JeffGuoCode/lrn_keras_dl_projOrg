@@ -44,5 +44,8 @@ the data would be represented in json format, i.e., [{'image_id':xxx}, {'image_i
 ## Important functions/class for training task
 * tbc
 
+## How to define the date_generator
+
+## How use docker
 
   
