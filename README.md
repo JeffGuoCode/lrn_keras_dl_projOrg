@@ -27,6 +27,10 @@ The idea of doing this post originates from Google's AI project, image quality a
 the data would be represented in json format, i.e., [{'image_id':xxx}, {'image_id':yyy}, ...]
  ```samples = image_dir_to_json(image_dir, img_type='jpg')```
 * model build
+```nima_tech = Nima(base_model_name, weights=None)
+    nima_tech.build()
+    nima_tech.nima_model.load_weights(weights_file_tech)
+```
 * train_data_generator and test_data_generator
 * train and predict
 
